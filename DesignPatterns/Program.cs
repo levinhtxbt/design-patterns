@@ -15,8 +15,12 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
 
-            var openClosedPrinciple = new OpenClosedPrinciple.AppyPrinciple();
-            openClosedPrinciple.Execute();
+            //var openClosedPrinciple = new OpenClosedPrinciple.AppyPrinciple();
+            //openClosedPrinciple.Execute();
+
+            var liskovSubstitutionPrinciple = new LiskovSubstitutionPrinciple();
+            liskovSubstitutionPrinciple.Excute();
+
 
 
             Console.ReadKey();

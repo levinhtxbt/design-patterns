@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SOLID\LiskovSubstitutionPrinciple.cs" />
     <Compile Include="SOLID\OpenClosedPrinciple.cs" />
     <Compile Include="SOLID\SingleResponsibilityPrinciple.cs" />
   </ItemGroup>

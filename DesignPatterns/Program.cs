@@ -18,8 +18,10 @@ namespace DesignPatterns
             //var openClosedPrinciple = new OpenClosedPrinciple.AppyPrinciple();
             //openClosedPrinciple.Execute();
 
-            var liskovSubstitutionPrinciple = new LiskovSubstitutionPrinciple();
-            liskovSubstitutionPrinciple.Excute();
+            //var liskovSubstitutionPrinciple = new LiskovSubstitutionPrinciple();
+            //liskovSubstitutionPrinciple.Excute();
+
+            DependencyInversionPrinciple.Research.Run();
 
 
 
@@ -33,4 +35,5 @@ namespace DesignPatterns
 
     
 }
+
 

@@ -71,6 +71,7 @@ namespace DesignPatterns.SOLID
             //    }
             //}
 
+            // Thay vì truyền vào một class cụ thể thì chúng ta sẽ truyền vào 1 interface (abstractions)
             public Research(IRelationshipBrowser relationshipBrowser)
             {
                 foreach (var children in relationshipBrowser.FindAllChildrenOf("John"))

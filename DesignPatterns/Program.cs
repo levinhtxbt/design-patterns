@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DesignPatterns.CreationalPattern;
 using DesignPatterns.SOLID;
 
 namespace DesignPatterns
@@ -21,8 +22,11 @@ namespace DesignPatterns
             //var liskovSubstitutionPrinciple = new LiskovSubstitutionPrinciple();
             //liskovSubstitutionPrinciple.Excute();
 
-            DependencyInversionPrinciple.Research.Run();
+            //DependencyInversionPrinciple.Research.Run();
 
+            //Builder.Execute();
+
+            BuilderSample2.Execute();
 
 
             Console.ReadKey();
